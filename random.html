@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Page with Query Parameter</title>
+</head>
+<body>
+
+<button onclick="addQueryParam()">Add Query Parameter</button>
+
+<script>
+    function addQueryParam() {
+        // Get the current URL
+        var currentUrl = window.location.href;
+        
+        // Add a query parameter
+        var newUrl = currentUrl + (currentUrl.indexOf('?') !== -1 ? '&' : '?') + 'k';
+
+        // Redirect to the new URL
+        window.location.href = newUrl;
+    }
+</script>
+
+</body>
+</html>
