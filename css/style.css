@@ -1,6 +1,8 @@
 
+/* #### HOME PAGE #### */
+
 body {
-    background: url(/images/image3.png); 
+    background: url(/images/background.png); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,9 +23,16 @@ body {
 #right { text-align: right;}
 
 .header {
-    position: relative;
+    position: fixed;
     top: 0%;
-    height: 20%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
     }
     /*Header CSS*/
     img#ttl {
@@ -39,4 +48,350 @@ body {
     vertical-align:right;
     margin-right: 2%;
 
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* #### SKILLS PAGE #### */
+
+.skills{
+    padding: 5rem 0 2.5rem 0;
+}
+.skills.container {
+    padding-left: 75px; /* Adjust this value as needed */
+    padding-right: 50px; /* Optional: Adjust if you want to set the right padding */
+    max-width: 100%;
+}
+.skills .title h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', sans-serif; /* Change this to any font you prefer */
+    font-size: 36px; /* Adjust the size if needed */
+    margin-bottom: 50px; /* Increase space between title and boxes */
+}
+
+.skills .row{
+    margin: 1rem 0;
+}
+.skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+.skills .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+    color: white;    
+}
+
+.skill_bar_section .skills-name-box p.skill-name {
+    color: white; /* Set the font color to white */
+    font-family: 'Courier New', sans-serif; /* Change to your desired font */
+}
+
+.skills .item-text span:last-child{
+    position: absolute;
+}
+.skills .item-text .w-90{
+    margin-left: 85%;
+}
+.skills .item-text .w-80{
+    margin-left: 75%;
+}
+.skills .item-text .w-85{
+    margin-left: 80%;
+}
+.skills .item-text .w-65{
+    margin-left: 60%;
+}
+.skills .item-text .w-70{
+    margin-left: 65%;
+}
+.skills .item-text .w-60{
+    margin-left: 55%;
+}
+
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 16px;
+    width: 100%;
+    background-color: var(--nero);
+    overflow: hidden;
+    
+}
+.progress-bar{
+    background: var(--green);
+    height: 50%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.progress-bar.w-90{
+    width: 90%;
+    background-color: #eeeeee;
+}
+.progress-bar.w-80{
+    width: 80%;
+    background-color: #eeeeee;
+}
+.progress-bar.w-85{
+    width: 85%;
+    background-color: #eeeeee;
+}
+
+.progress-bar.w-65{
+    width: 65%;
+    background-color: #eeeeee;
+}
+
+.progress-bar.w-70{
+    width: 70%;
+    background-color: #eeeeee;
+}
+
+.progress-bar.w-60{
+    width: 60%;
+    background-color: #eeeeee;
+}
+
+
+/* #### CERTIFICATIONS PAGE #### */
+
+.certifications{
+    padding: 5rem 0 2.5rem 0;
+}
+.certifications.container {
+    padding-left: 75px; /* Adjust this value as needed */
+    padding-right: 50px; /* Optional: Adjust if you want to set the right padding */
+    max-width: 100%;
+}
+.certifications .title h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', sans-serif; /* Change this to any font you prefer */
+    font-size: 36px; /* Adjust the size if needed */
+    margin-bottom: 200px; /* Increase space between title and boxes */
+}
+
+.certification-box {
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #6A4A30; /* Adjust background color as needed */
+    text-align: center;
+    border-radius: 15px;
+    max-width: 400px;
+    margin-bottom: 200px;
+  }
+  
+  
+  .certification-title {
+    font-size: 24px; /* Increase the title size */
+    margin-bottom: 15px; /* Adds space below the title */
+    font-family: 'Courier New', sans-serif;
+  }
+  .certification-description {
+    font-size: 16px; /* Description text size */
+    margin-bottom: 15px; /* Adds space below the description */
+    font-family: 'Courier New', sans-serif;
+  }
+
+  .certification-link {
+    color: #FFD700;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Courier New', sans-serif;
+  }
+
+  /* #### PROJECTS PAGE #### */
+.projects {
+    padding: 5rem 0 2.5rem 0;
+}
+
+.projects.container {
+    padding: 0 75px; /* Adjust this value as needed */
+}
+
+.projects .title h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.projects-content {
+    position: relative;
+    width: 100%;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 2px;
+    background-color: white;
+    transform: translateX(-50%);
+    
+}
+
+.projects-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px; /* Adjust this padding for better alignment */
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Space between projects */
+    position: relative;
+}
+
+.project-left {
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.project-right {
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.project-date {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Courier New', sans-serif;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+.project-left .project-date {
+    left: calc(50% + 20px);
+}
+
+.project-right .project-date {
+    right: calc(50% + 20px);
+}
+
+.project-details {
+    max-width: 400px;
+    background-color: #6A4A30;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    position: relative;
+    z-index: 2;
+}
+
+.project-details h4 {
+    margin-top: 0;
+}
+
+.project-link {
+    color: #FFD700;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: 'Courier New', sans-serif;
+  }
+
+.dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.project-left .dot {
+    left: calc(136% + 20px); /* Position dot to the left of the project box */
+}
+
+.project-right .dot {
+   right: calc(136% + 20px); /* Position dot to the right of the project box */
+}
+
+.project-right .project-details {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.project-left .project-details {
+    text-align: right;
+    margin-right: 50px;
+}
+
+/* #### CONTACT ME PAGE #### */
+.contactMe {
+    padding: 5rem 0 2.5rem 0;
+}
+
+.contactMe.container {
+    padding: 0 75px; /* Adjust this value as needed */
+}
+
+.contactMe .title h2 {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', sans-serif;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.contact-info {
+    text-align: center;
+    font-family: 'Courier New', sans-serif;
+    color: white;
+    font-size: 24px; /* Increase font size for email and phone */
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #FFD700;
+    text-decoration: underline;
+}
+
+.contact-info span {
+    color: #FFD700;
+    text-decoration: underline;
+    margin-bottom: 30px; /* Space after phone number */
+    display: inline-block;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Space between phone number and icons */
+    margin-bottom: 200px; 
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px; /* Space between icons */
 }
