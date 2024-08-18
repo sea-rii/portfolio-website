@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -11,26 +12,51 @@
     <link rel="icon" href="/images/image5.png">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(255, 255, 255, 0.0);" data-spy="affix" data-offset-top="197">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #6A4A30;" data-spy="affix" data-offset-top="197">
       <div class="container">
-        <a class="navbar-brand" href="/">Home</a>
+        <a class="navbar-brand" href="/" style="font-family: 'Courier New', sans-serif; font-size: 26px;">Siri.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+          <style>
+            .nav-item {
+                margin-right: 15px; /* Adjust the value to control spacing */
+            }
+            .nav-link:active {
+               text-decoration: underline;
+            }
+        </style>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="">Resume</a>
+              <a class="nav-link" href="#home-section" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Home</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="https://wordpress.com/posts/searii.wordpress.com">Journal</a>
+              <a class="nav-link" href="#skills-section" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Skills</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="">Projects</a>
+              <a class="nav-link" href="#certifications-section" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Certifications</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/saisirichittineni/">LinkedIn</a>
+              <a class="nav-link" href="#projects-section" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Projects</a>
             </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://wordpress.com/posts/searii.wordpress.com" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Journal</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contactMe-section" style="font-family: 'Courier New', sans-serif; font-size: 20px;">Contact Me</a>
+            </li>
+
+            <!--<li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/saisirichittineni/" style="font-family: 'Courier New', sans-serif; font-size: 20px;">LinkedIn</a>
+            </li>
+          -->
             <!--
             <li class="nav-item">
               <a class="nav-link" href="/WebPages/projects.html">PROJECTS</a>
@@ -46,27 +72,235 @@
     </nav>
     <br>
     <center>
-      <div class="container text-black text-center">
+      <div id="home-section" class="container text-white text-center">
         <div class="des">
            <!--<<img src="images/image1.png" class="img-fluid round"> <br><br>-->
-           <img src="/images/image-photo.png" class="img-fluid round" style="width:275px; height:275px"> <br><br>
-          <h1>Sai Siri Chittineni</h1> <br>
-          <small class="lead"><strong>Junior Honors Student</strong></small> <br>
+           <img src="/images/newPhoto.png" class="img-fluid round" style="width:300px; height:300px; float: center; margin-left: 20px;"> <br><br>
+          <h1 style="font-family: 'Courier New', sans-serif; font-weight: bold;">Sai Siri Chittineni</h1> <br>
+          <small class="lead" style="font-family: 'Courier New', sans-serif;"><strong>Junior Honors Student</strong></small> <br>
           <!--<small class="lead"><strong>Tutor @ <a href="https://hackersarcade.com/" class="text-decoration-none" target="_blank">Hackers Arcade</strong></a></small> <br>-->
-          <p class="lead"><strong>Computer Science</strong> @ The University of Texas at San Antonio </p> <br>
-          <!--<a class="btn btn-outline-light" href="/WebPages/ADResume.pdf" role="button">MY RESUME</a><br><br><br><br>-->
-          <a href="https://www.instagram.com/sea.rii/" target="_blank"><img src="/images/insta.png" class="img-fluid round" style="width:50px; height:50px"></a>&nbsp;
-          <a href="https://github.com/sea-rii" target="_blank"><img src="/images/github-img.png" class="img-fluid round" style="width:50px; height:50px"></a>
-          <a href="https://twitter.com/chittineni_siri" target="_blank"><img src="/images/twitter-img.png" class="img-fluid round" style="width:50px; height:50px"></a>
-          <a href="https://www.threads.net/@sea.rii" target="_blank"><img src="/images/threads.png" class="img-fluid round" style="width:50px; height:50px"></a>
-          <a href="https://vsco.co/sea-rii/gallery" target="_blank"><img src="/images/VSCO.png" class="img-fluid round" style="width:50px; height:50px"></a>
+          <p class="lead" style="font-family: 'Courier New', sans-serif;"><strong>Computer Science</strong> @ The University of Texas at San Antonio </p> <br>
+
+          <a class="btn btn-outline-light" style="font-family: 'Courier New', sans-serif;" href="/WebPages/Resume(portfolio).pdf" role="button">My Resume</a><br><br><br><br>
+
+          <a href="https://www.instagram.com/sea.rii/" target="_blank"><img src="/images/insta.png" class="img-fluid round" style="width:50px; height:50px;"></a>&nbsp;
+
+          <a href="https://github.com/sea-rii" target="_blank"><img src="/images/github.png" class="img-fluid round" style="width:50px; height:50px"></a>
+
+          <!--<a href="https://twitter.com/chittineni_siri" target="_blank"><img src="/images/twitter.png" class="img-fluid round" style="width:50px; height:50px"></a>-->
+
+          <a href="https://www.linkedin.com/in/saisirichittineni/" target="_blank"><img src="/images/Linkedin.png" class="img-fluid round" style="width:50px; height:50px"></a>
+
+          <!--<a href="https://www.threads.net/@sea.rii" target="_blank"><img src="/images/threads.png" class="img-fluid round" style="width:50px; height:50px"></a>-->
+          <!--<a href="https://vsco.co/sea-rii/gallery" target="_blank"><img src="/images/VSCO.png" class="img-fluid round" style="width:50px; height:50px"></a>-->
           <br><br><br><br><br>
         <br><br>
-        <p>Copyright© 2024 Sai Siri Chittineni</p>
+        <!--<p>Copyright© 2024 Sai Siri Chittineni</p>-->
         </div>
       </div>
     </center>
+
+
+    <!-- SKILLS SECTION -->
+
+    <div id="skills-section" class = "skills container">
+      <div class = "title">
+        <h2>Skills</h2>
+      </div>
   
+      <!--<p class = "text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ab laudantium possimus molestias sapiente, saepe facilis dolore autem repellat, quo iure tempore nisi perspiciatis. Quasi?</p>-->
+  
+      <div class = "row">
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/java.png" alt="Java Icon">
+            <span style="font-family: 'Courier New', sans-serif;">Java </span>
+            <span class = "w-90" style="font-family: 'Courier New', sans-serif;">90%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-90"></div>
+          </div>
+        </div>
+  
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/C.png" alt="C# Icon">
+            <span style="font-family: 'Courier New', sans-serif;">C#</span>
+            <span class = "w-80" style="font-family: 'Courier New', sans-serif;">80%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-80"></div>
+          </div>
+        </div>
+  
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/python.png" alt="Python Icon">
+            <span style="font-family: 'Courier New', sans-serif;">Python</span>
+            <span class = "w-85" style="font-family: 'Courier New', sans-serif;">85%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-85"></div>
+          </div>
+        </div>
+  
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/html.png" alt="html Icon">
+            <span style="font-family: 'Courier New', sans-serif;">HTML</span>
+            <span class = "w-65" style="font-family: 'Courier New', sans-serif;">65%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-65"></div>
+          </div>
+        </div>
+  
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/Css.png" alt="CSS Icon">
+            <span style="font-family: 'Courier New', sans-serif;">CSS</span>
+            <span class = "w-70" style="font-family: 'Courier New', sans-serif;">70%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-70"></div>
+          </div>
+        </div>
+  
+        <div class = "item">
+          <div class = "item-text">
+              <img src="/images/javascript.png" alt="JavaScript Icon">
+            <span style="font-family: 'Courier New', sans-serif;">JavaScript</span>
+            <span class = "w-60" style="font-family: 'Courier New', sans-serif;">60%</span>
+          </div>
+          <div class = "progress">
+            <div class = "progress-bar w-60"></div>
+          </div>
+        </div>
+  
+        
+      </div>
+    </div>
+
+    <!-- CERTIFICATIONS SECTION -->
+    <div id="certifications-section" class = "certifications container">
+      <div class = "title">
+        <h2>Certifications</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="certification-box">
+            <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">DSA Practitioner</h4>
+            <p style="font-family: 'Courier New', sans-serif;">I successfully completed the professional-level Data Science and Algorithms certification offered by W3Schools on August 16, 2024.</p>
+            <a style="font-family: 'Courier New', sans-serif;" href="/WebPages/DSA-certification.pdf" class="certification-link" target="_blank">View Certificate</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="certification-box">
+            <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">CRLA International Tutor Training Program Level II</h4>
+            <p style="font-family: 'Courier New', sans-serif;">I completed CRLA Level 1 training as part of my Floor Tutoring job at the University of Texas at San Antonio from August to December 2023.</p>
+            <a style="font-family: 'Courier New', sans-serif;" href="/WebPages/CRLA-level2.jpg" class="certification-link" target="_blank">View Certificate</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="certification-box">
+            <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">CRLA International Tutor Training Program Level I</h4>
+            <p style="font-family: 'Courier New', sans-serif;">I completed CRLA Level 1 training as part of my Floor Tutoring job at the University of Texas at San Antonio from January to May 2024.</p>
+            <a style="font-family: 'Courier New', sans-serif;" href="/WebPages/CRLA-Level1.jpg" class="certification-link" target="_blank">View Certificate</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+  
+
+
+    <!-- PROJECTS SECTION -->
+    <div id="projects-section" class="projects container">
+      <div class="title">
+        <h2>Projects</h2>
+      </div>
+    
+      <div class="projects-content">
+        <div class="vertical-line"></div>
+        <div class="projects-list">
+
+          <!-- Project 1 (left)-->
+          <div class="project project-left">
+            <div class="project-date">August 2024</div>
+            <div class="project-details">
+              <div class="dot"></div>
+              <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">Project Title 1</h4>
+              <p style="font-family: 'Courier New', sans-serif;">Project description goes here. Include details about the project, technologies used, and any other relevant information.</p>
+              <a style="font-family: 'Courier New', sans-serif;" href="" class="project-link" target="_blank">GitHub</a>
+            </div>
+          </div>
+    
+          <!-- Project 2 (right)-->
+          <div class="project project-right">
+            <div class="project-date">June 2024</div>
+            <div class="project-details">
+              <div class="dot"></div>
+              <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">Scrape 'n' Taste Chicago</h4>
+              <p style="font-family: 'Courier New', sans-serif;">This project involves web scraping the Yelp website to extract data on the top 70 restaurants in Chicago. Utilizing Python's Requests and Beautiful Soup libraries, the script efficiently collects restaurant names, ratings, reviews, cuisine types, and other relevant information. The extracted data provides a comprehensive overview of Chicago's culinary scene, enabling further analysis and insights.</p>
+              <a style="font-family: 'Courier New', sans-serif;" href="https://github.com/sea-rii/Scrape-n-taste-Chicago" class="project-link" target="_blank">GitHub</a>  
+            </div>
+
+          </div>
+
+          <!-- Project 3 (left)-->
+          <div class="project project-left">
+            <div class="project-date">March - April 2024</div>
+            <div class="project-details">
+              <div class="dot"></div>
+              <h4 style="font-family: 'Courier New', sans-serif; font-weight: bold;">Portfolio Website</h4>
+              <p style="font-family: 'Courier New', sans-serif;">This portfolio showcases my web development skills using HTML, CSS, and JavaScript. It features a clean and intuitive interface with dedicated sections highlighting my abilities, certifications, completed projects, and a personal journal.</p>
+              <a style="font-family: 'Courier New', sans-serif;" href="https://github.com/sea-rii/portfolio-website" class="project-link" target="_blank">GitHub</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT ME SECTION -->
+    <div id="contactMe-section" class="contactMe container">
+      <div class="title">
+        <h2>Contact Me</h2>
+      </div>
+    
+      <p style="font-family: 'Courier New', sans-serif; color: white; text-align: center; font-size: 20px; margin-bottom: 150px;" class = "text">
+        Thank you for taking the time to check out my portfolio, have more questions?
+      </p>
+    
+      <div class="contact-info">
+        <p>
+          <strong>EMAIL:</strong> 
+          <a href="mailto:saisirichittineni@gmail.com">
+            saisirichittineni@gmail.com
+          </a>
+        </p>
+        <p>
+          <strong>PHONE:</strong> 
+          <span>(xxx) xxx-xxxx</span>
+        </p>
+      </div>
+    
+      <div class="social-icons">
+        <a href="https://www.facebook.com/profile.php?id=100058158340162" target="_blank">
+          <img src="/images/facebook.png" alt="Facebook" class="social-icon">
+        </a>
+        <a href="https://twitter.com/chittineni_siri" target="_blank">
+          <img src="/images/twitter.png" alt="Twitter" class="social-icon">
+        </a>
+      </div>
+    </div>
+  
+    
+      
+
+
+  
+    <p style="color: white; text-align: center; font-size: 0.8em; margin-top: 50px;">Copyright© 2024 Sai Siri Chittineni</p>
       <!-- Optional JavaScript; choose one of the two! -->
   
       <!-- Option 1: Bootstrap Bundle with Popper -->
