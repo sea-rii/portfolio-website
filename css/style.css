@@ -178,7 +178,7 @@ body {
     text-align: center;
     font-family: 'Courier New', sans-serif; /* Change this to any font you prefer */
     font-size: 36px; /* Adjust the size if needed */
-    margin-bottom: 200px; /* Increase space between title and boxes */
+    margin-bottom: 100px; /* Increase space between title and boxes */
 }
 
 .certification-box {
@@ -190,7 +190,7 @@ body {
     text-align: center;
     border-radius: 15px;
     max-width: 400px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   
   
